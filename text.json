@@ -1,0 +1,15 @@
+{
+    "string":"Elzero",
+    "number":10,
+    "object":{
+        "EG":"Giza",
+        "KSA":"Riyadh"
+    },
+    "array":["HTML","Css","Js"],
+    "boolean":true,
+    "null":null
+
+
+
+
+}

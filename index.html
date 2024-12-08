@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span class="toogles">
+        <span></span>
+        <span></span>
+        <span></span>
+    </span>
+    <nav>
+        <span class="close">x</span>
+        <a href="#">Home</a>
+        <a href="#">Actives</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <ul class="tabs">
+        <li class="active" data-con=".one">Frist</li>
+        <li data-con=".two">Second</li>
+        <li data-con=".three">Third</li>
+    </ul>
+    <div class="content">
+        <div class="one">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum repellendus tempora magni rem voluptas? Amet accusamus aliquam qui
+            squam quod temporibus inventore velit, libero doloribus at pariatur et modi, corporis dolorum.</div>
+        <div class="two">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, repudiandae error natus molestias aperiam officiis eius quidem expedita mollitia et commodi itaque fugit in, deserunt odio id, perferendis voluptatum dolores?
+
+        </div>
+        <div class="three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum esse impedit debitis dolore cumque accusantium, quasi po
+            ssimus, dignissimos in, totam fugiat incidunt doloremque quas vel quaerat enim beatae sunt ipsam?</div>
+    </div>
+
+
+    <div class="serial"></div>
+    <span class="gen">Generate</span>
+
+
+    <span class="up">UP</span>
+
+
+
+
+
+
+    <div class="game">
+        <span class="name">Typing Speed Test Game</span>
+        <div class="container">
+            <div class="choos">Choose Level</div>
+
+
+            <form action="">
+            <label for="E">Easy</label>
+            <input type="radio" id="E" name="level" value="Easy" checked />
+            <label for="N">Normal</label>
+            <input type="radio" id="N" name="level" value="Normal"/>
+            <label for="H">Hard</label>
+            <input type="radio" id="H" name="level" value="Hard"/>
+
+            <span class="chlev">Choose</span>
+        </form>
+            <div class="massege">
+                you are plying on
+                <span class="lev"></span> level & you have <span class="second"></span> Seconds to type the word
+            </div>
+            <span class="start">Start Playing</span>
+            <div class="the_word"></div>
+            <input type="text" class="input">
+            <div class="upcoming_word">Words Will Show Here</div>
+            <div class="control">
+                <div class="time">Time Left: <span></span>Seconds</div>
+                <div class="score">Score: <span class="got">0</span>from <span class="total"></span></div>
+            </div>
+            <div class="finsh"></div>
+            <span class="try_again">Try Again</span>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
